@@ -7,6 +7,7 @@ contract ERC20 {
     string public symbol;
 
     event Transfer(address indexed from, address indexed to, uint256 value);
+
     event Approval(
         address indexed owner,
         address indexed spender,
